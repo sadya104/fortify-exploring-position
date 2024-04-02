@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Form</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="https://kit.fontawesome.com/f663c563f2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <form class="nike-form">
+        <i class="fa-solid fa-check"></i>
+        <h2 class="nike-form__header">BE THE FIRST TO KNOW</h2> 
+        <p class="nike-form__text">Sign up for Nike emails to be the first to see inspiring content, news and exclusive offers.</p>
+        <div class="nike-form__email">
+            <label for="email">Email address*</label>
+            <input type="email" name="email" id="email" placeholder="Email address" required>
+        </div>
+        <div class="nike-form__dob-shop">
+            <div class="nike-form__dob">
+                <label for="dob">Date of Birth*</label>
+                <input type="date" name="dob" id="dob" placeholder="dd/mm/yyyy" required>
+            </div> 
+            <div class="nike-form__shop">
+                <label for="shop">Shopping Preference*</label>
+                <select name="shop" id="shop">
+                    <option>Choose</option>
+                    <option value="girls">Girls'</option>
+                    <option value="boys">Boys'</option>
+                    <option value="women">Women's</option>
+                    <option value="men">Men's</option>
+                </select>
+            </div>
+        </div>
+        <input class="nike-form__submit" type="submit" value="SIGN UP">
+        <p class="nike-form__sign">By signing up, you agree to nike's <a href="#">Privacy Policy</a>  and <a href="#">Terms of Use</a></p>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
